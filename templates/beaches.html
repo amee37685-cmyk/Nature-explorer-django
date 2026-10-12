@@ -1,0 +1,51 @@
+{% load static %}
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Beaches | My Nature Site</title>
+    <style>
+        .category-hero {
+            background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('https://picsum.photos/id/1002/1600/500');
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .photo-card img {
+            border-radius: 10px;
+            height: 250px;
+            width: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Yahan apna navbar paste karo -->
+
+    <div class="category-hero">
+        <h1 class="display-4">Beaches</h1>
+        <p class="lead">Where the waves meet the shore</p>
+    </div>
+
+    <div class="container mt-5 mb-5">
+        <div class="row g-4">
+            <div class="col-md-4 photo-card">
+                <img src="https://picsum.photos/id/1002/500/400" alt="Beach 1">
+            </div>
+            <div class="col-md-4 photo-card">
+                <img src="https://picsum.photos/id/1003/500/400" alt="Beach 2">
+            </div>
+            <div class="col-md-4 photo-card">
+                <img src="https://picsum.photos/id/1016/500/400" alt="Beach 3">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>

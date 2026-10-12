@@ -1,0 +1,19 @@
+.thumbnail-img {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.6;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.thumbnail-img:hover {
+    opacity: 0.9;
+}
+
+.thumbnail-img.active {
+    opacity: 1;
+    border-color: #0d6efd;
+}
